@@ -1,0 +1,256 @@
+<body style="background-color:#f8f8ff;">
+</body>
+<h1><u><center>Gestión de Préstamos y Deudores</center></u></h1>
+
+<b>Alumno: José Rodolfo Alberto Casachahua Medina </b><br>
+
+<!-- Esta es la URL del trabajo guiado 01 en la plataforma Stackblitz-->
+
+<b>Url: <a
+href= "https://js-d2owca.stackblitz.io">https://js-d2owca.stackblitz.io</a></b><br>
+
+<!-- Esta es la URL del trabajo guiado 01 en la plataforma GitHub-->
+
+<b>GitHub: <a
+href= "https://github.com/JoserCasachahua/Trabajo-Practico-Visualizacion-de-datos.git">https://github.com/JoserCasachahua/Trabajo-Practico-Visualizacion-de-datos.git</a></b><br>
+
+<b>Google Charts: <a
+  href= "https://docs.google.com/spreadsheets/d/1WCXGKNnaWMsCkYA1Ags0Petjuwe1_ebdSWiObXqQ6Eo/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1WCXGKNnaWMsCkYA1Ags0Petjuwe1_ebdSWiObXqQ6Eo/edit?usp=sharing</a></b><br>
+
+<b>Power BI - Combinado: <a
+    href= "https://app.powerbi.com/links/ot4TPwynCU?ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&pbi_source=linkShare">https://app.powerbi.com/links/ot4TPwynCU?ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&pbi_source=linkShare</a></b><br>
+
+<b>Power BI - Mapa: <a
+    href= "https://app.powerbi.com/links/F4DBq-GNaQ?ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&pbi_source=linkShare">https://app.powerbi.com/links/F4DBq-GNaQ?ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&pbi_source=linkShare</a></b><br>
+
+<b>Fuente: <a
+  href= "https://www.kaggle.com/competitions/GiveMeSomeCredit/data">https://www.kaggle.com/competitions/GiveMeSomeCredit/data</a></b><br>
+<br>
+
+  <h2><b>1. Contexto y Motivación</b><br></h2>
+  La entidad financiera TFC tiene pocos años de instauración, cuenta con una cartera de clientes pequeña y un portafolio de servicios financieros en crecimiento, entre ellos, el servicio de préstamos o créditos que son requeridos por personas naturales y empresas de diferentes sectores del mercado.
+  La financiera es consciente que el brindar acceso a créditos a sus clientes mueve la aguja del funcionamiento de las sociedades y de los mercados. Ante ello, surge la necesidad de establecer un proceso de concesión de créditos confiable, robusto y que permita ofrecer vínculos de confianza y transparencia entre la entidad y los usuarios finales.<br>
+  <br>
+
+  <h2><b>2. Fuente de Datos</b><br></h2>
+  El dataset o conjunto de datos que consideré en esta actividad fue el que trabajé en los cursos 05MBID-Minería de Datos y 06MBID-Estadística Avanzada, esta fuente la obtuve en primera instancia de la página de competencias Kaggle (el enlace está especificado en la parte superior) para luego trabajarla en las etapas de preprocesamiento y limpieza de datos propias del proceso KDD, donde se trataron valores perdidos o missing values, outliers y datos transformados.<br>
+  <br>
+
+  <h2><b>3. Contemos una historia con Visualizaciones</b><br></h2>
+  <b><u>A. Primer Gráfico</b></u><br>
+  <br>
+  La entidad financiera mediante su Área de Experiencia del Cliente requiere en primera instancia identificar cuales son los principales objetivos (en porcentaje) por los cuales los clientes realizan solicitudes de préstamos en los últimos años y de esta manera poder impulsar diferentes iniciativas. Por ello, como Especialista del área de Data y Analytics elaboré un gráfico de sectores mediante la herramienta Google Charts para poder cubrir la necesidad de manera sencilla y entendible, obteniendo la siguiente visualización: <br>
+  <br>
+
+
+<!-- Este primer iframe hace referencia al primer gráfico (Préstamos por tipo de objetivo)) elaborado en Google Charts-->
+
+<center><iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsfk3MHsA-b4dUF2kV4nEG5Q_BAMc48QIUoraKFQuY9CnVxHsSy_VqLUMS4OHpCc3zgbJbKWgRRJbH/pubchart?oid=674993756&amp;format=interactive"></iframe></center>
+
+<br>
+
+<b>A.1 Interpretación</b><br>
+<br>
+Como se puede ver en el gráfico superior, los 2 principales objetivos por los cuales los clientes han realizado préstamos son:<br>
+<br>
+<b>- Consolidación de deudas:</b> Representa el 46,7%, ante ello se pueden tomar acciones como facilidades de pago, extensiones o prórrogas de mensualidad, con la finalidad de crear vínculos de empatía y apoyo con los clientes. <br>
+<br>
+<b>- Tarjetas de crédito:</b> Representa el 13,6%, ante ello se pueden tomar acciones como ofrecer tarjetas de crédito propias de la entidad financiera que ofrezcan mejores tasas de interés y mayores beneficios. <br>
+
+<br>
+<br>
+
+<b>A.2 Justificación de utilización de herramienta</b><br>
+<br>
+Considero que Google Charts es una buena opción para este requerimiento ya que el área solicitante demanda una solución rápida, fléxible y que permita ser compartida de manera sencilla haciendo uso de la plataforma de Google, siendo esta la plataforma de comunicaciones interna de la entidad financiera. <br>
+<br>
+<br>
+
+<b>A.3 Justificación de utilización de la visualización</b><br>
+<br>
+Considero que el gráfico de tarta o sectores es buena opción puesto que se requiere representar porcentajes de categorías (tipos de objetivos de préstamos), además al realizar un análisis previo se evidenció que no se manejan muchas categorías por lo que no caemos en la mala práctica de exceso. Adicionalmente, consideramos las buenas prácticas tales como el etiquetado y valores porcentuales por fuera de cada sector, lo cual evita estar consultando una leyenda que al final puede ser más un distractor que una ayuda a la audiencia. <br>
+<br>
+<br>
+
+<b>A.4 Elementos de la Visualización</b><br>
+<br>
+Este gráfico tiene los siguientes elementos: <br>
+<br>
+<b>- Audiencia:</b> Se encuentra representado por los colaboradores pertenecientes al Área de Experiencia del Cliente de la entidad financiera, quienes harán uso de la visualización para tomar decisiones a corto, mediano y largo plazo. <br>
+<br>
+<b>- Objetivo:</b> Lo que espera la audiencia antes indicada, es poder tener visibilidad de los principales motivos por los cuales sus clientes están solicitando préstamos y sobre ello poder entablar estrategías de fidelización. <br>
+<br>
+Este objetivo puede responder la siguiente pregunta: <br>
+<br>
+<b>- .¿Podemos ayudar a alivianar la carga de pago de nuestros clientes?:</b> Claro que si, si sabemos cuales son sus principales motivos por los cuales piden un préstamo entonces tenemos identificada la raíz del "problema" y sobre ello se podrán aplicar planes orientados a ayudarlos y de paso ganamos su confianza por años. <br>
+<br>
+<b>- Mensaje:</b> Contaremos la historia mediante el gráfico de sectores con el cual lograremos transmitir que el principal motivo de préstamos se centra en la consolidación de las deudas así como en el pago de tarjetas de créditos, esto nos cuenta que en los últimos años las personas prefieren cumplir con el pago de la totalidad de sus deudas y no estar pagando de manera aislada, así mismo la venta y uso de tarjetas de crédito ha aumentado a tal grado que las personas están optando por préstamos para poder pagar este tipo de deudas, esto refleja dos dolencias marcadas en los hábitos de consumo y ordenamiento de las finanzas de la población. <br>
+<br>
+<br>
+
+<b><u>B. Segundo Gráfico</b></u><br>
+  <br>
+  A raíz de los resultados obtenidos por el gráfico anterior surgió otra necesidad la cual fue canalizada por el especialista de negocio, donde el Área de Créditos y Cobranzas necesita saber cuál fue el comportamiento promedio de los préstamos solicitados versus el pago de los mismos por parte de los clientes en un rango de años determinado (decidieron que sea del 2017 al 2019 con fines de prueba) y de esta manera poder concretar planes de mejora en la actualidad. Por ello, como Especialista del área de Data y Analytics elaboré un gráfico de tendencia mediante la herramienta Google Charts para poder cubrir la necesidad de manera sencilla y entendible, obteniendo la siguiente visualización: <br>
+  <br>
+
+<!-- Este segundo iframe hace referencia al segundo gráfico (Promedio de préstamos y pagos en el tiempo) elaborado en Google Charts-->
+
+<center><iframe width="794" height="400" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsfk3MHsA-b4dUF2kV4nEG5Q_BAMc48QIUoraKFQuY9CnVxHsSy_VqLUMS4OHpCc3zgbJbKWgRRJbH/pubchart?oid=530047097&amp;format=interactive"></iframe></center>
+
+<br>
+<b>B.1 Interpretación</b><br>
+<br>
+En base a la visualización superior podemos deducir los siguientes puntos:<br>
+<br>
+- Los montos de pagos recibidos deberían ser siempre superiores a los montos del préstamo puesto que en el primero incluye otros conceptos como son lo intereses recibidos, la recuperación bruta y la mora.
+<br>
+<br>
+- En algunos meses se evidencia que el promedio de los montos recibidos está por debajo del promedio de montos de préstamos (eg: octubre 2017, noviembre 2017, diciembre 2017,abril 2018, etc.), las posibles causas podrían ser exoneraciones y prórrogas mal gestionadas, conciliación errónea o en el peor de los casos, huecos de información por procesos automáticos deficientes y no acordes con las reglas de negocio.
+<br>
+<br>
+- Incluímos dos líneas de tendencia por cada variable cuantitativa que a pesar de tener anomalías presenta tendencia hacia arriba a medida que pasan los meses, esto nos indica que los clientes han ido solicitando cada vez más préstamos para poder cubrir sus principales objetivos identificados en el gráfico anterior.
+<br>
+<br>
+- Los meses con casos atípicos identificados en la gráfica deberían ser analizados a detalle mediante reportes operativos que pueden ser elaborados por los mismos team members del equipo de cobranzas, ya que el team de Data se encarga principalmente de reportes analíticos.
+<br>
+
+<br>
+<br>
+
+<b>B.2 Justificación de utilización de herramienta</b><br>
+<br>
+De igual manera a lo expuesto al inicio, considero que Google Charts es una buena opción para este requerimiento ya que el área de créditos y cobranzas demanda una solución fléxible y que permita ser compartida de manera sencilla haciendo uso de la plataforma de Google, siendo esta la plataforma de comunicaciones interna de la entidad financiera. <br>
+<br>
+<br>
+
+<b>B.3 Justificación de utilización de la visualización</b><br>
+<br>
+Considero que el gráfico de líneas es buena opción puesto que se requiere representar la tendencia del comportamiento en el tiempo de dos variables cuantitativas representadas mediante el promedio de los montos de préstamos realizados y los montos recibidos, además estamos considerando solo dos líneas en esta comparativa por lo que está acorde a las buenas prácticas. <br>
+<br>
+<br>
+
+<b>B.4 Elementos de la Visualización</b><br>
+<br>
+Este gráfico tiene los siguientes elementos: <br>
+<br>
+<b>- Audiencia:</b> Se encuentra representado por los colaboradores pertenecientes al Área de Créditos y Cobranzas de la entidad financiera, quienes harán uso de la visualización para tomar decisiones a corto, mediano y largo plazo. <br>
+<br>
+<b>- Objetivo:</b> Lo que espera la audiencia antes indicada, es poder tener visibilidad de la tendencia respecto a los montos solicitados mediante préstamos y el pago de los mismos para poder entablar acciones que permitan mejorar posibles gaps de información y/ mejorar los procesos internos del área. <br>
+<br>
+Este objetivo puede responder la siguiente pregunta: <br>
+<br>
+<b>- .¿Podemos identificar la raíz de los problemas y proponer mejoras en los procesos de créditos y cobranzas?:</b> Por supuesto que si, lo primero es tener claro en que intervalos de tiempo estamos presentando los problemas y esto lo estamos logrando con esta visibilidad, para luego bajar al detalle y analizar lo que realmente está pasando y sobre ello proponer mejorar los aspectos de negocio o de TI que ameriten. <br>
+<br>
+<b>- Mensaje:</b> Contaremos la historia mediante el gráfico de tendencia con el cual lograremos transmitir que el comportamiento de los pagos realizados no se está evidenciando de manera normal en ciertos período de tiempo, esto está pasando desde octubre 2017 y se repite en algunos meses posteriores, siendo el último noviembre 2018, esto nos cuenta que los posibles errores se pudieron haber subsanado a través de paleativos temporales pero cabe la posibilidad de que pueda volver a repetirse por lo que amerita entrar al detalle y tener un diagnóstico a profundidad en cada mes en cuestión.<br>
+<br>
+<br>
+
+<b><u>C. Tercer Gráfico</b></u><br>
+  <br>
+ Como parte de las reuniones mensuales de Gerencias, se expusieron las visualizaciones anteriormente presentadas así como los principales dolores que enfrenta actualmente la empresa financiera de cara al trato con los clientes, quienes son el foco del negocio y por los cuales se plantean una serie de iniciativas para poder ayudarlos en cuanto a educación financiera. Ante estas situaciones el Área de Bienestar del Cliente generó el requerimiento basado en conocer cuál es la situación de los préstamos realizados en función del tipo de propiedad donde reside el cliente y como fue el comportamiento de los pagos realizados en los últimos años (trimestral) desde dicha perspectiva, para esto si se requiere tener la historia más actual posible por ende se tomaron los años 2019, 2020 y 2021. Por ello, como Especialista del área de Data y Analytics elaboré un gráfico combinado de Columnas Apiladas con Línea de Tendencia mediante la herramienta Power BI para poder cubrir la necesidad de manera sencilla y entendible, obteniendo la siguiente visualización: <br>
+ <br>
+
+<!-- Este tercer iframe hace referencia al tercer gráfico (Monto Préstamos y Pago Recibido por Trimestre y Tipo de Propiedad) elaborado en Power BI-->
+
+<center><iframe title="Actividad_General_JoseCasachahua_Stacked_Column_Line" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=39f34954-26f4-40f8-ad29-1c1a59b9f266&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtZXVyb3BlLWItcHJpbWFyeS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe></center>
+
+<br>
+<b>C.1 Interpretación</b><br>
+<br>
+En base a la visualización superior podemos deducir los siguientes puntos:<br>
+<br>
+- Los montos de préstamos realizados por parte de clientes con tipo de propiedad MORTGAGE o hipotecada fue aumentando en el tiempo, representando hasta el año pasado 44 millones de dólares en el último trimestre, podemos deducir que aquellos clientes con hipotecas están necesitando cada vez más préstamos con fines de cubrir sus respectivas deudas.
+<br>
+<br>
+- Los montos de préstamos realizados por parte de clientes con tipo de propiedad RENT o rentado también fue aumentando en el tiempo, representando hasta el año pasado 37 millones de dólares, podemos deducir que estos clientes al vivir en casas rentadas o alquiladas tienen menos gasto que alguién que tiene una hipoteca pero que solicita préstamos para cubrir otras necesidades que no se centran en vivienda o infraestructura inmobiliaria.
+<br>
+<br>
+- Los montos de préstamos realizados por parte de clientes con tipo de propiedad OWN o propia fue aumentando en el tiempo pero a baja escala, representando hasta el año pasado solo 6 millones de dólares, podemos deducir que aquellos clientes con casas propias solicitan préstamos a menor escala ya que cuentan con mayores recursos económicos o con cierto status que les permiten realizar préstamos puntuales.
+<br>
+<br>
+- Los montos de pagos realizados por los clientes a través de los 3 últimos años presentan una tendencia positiva y por encima de los montos de préstamos, lo cual denota el buen comportamiento pagador.
+<br>
+<br>
+
+<b>C.2 Justificación de utilización de herramienta</b><br>
+<br>
+Considero que Power BI es una buena opción para este requerimiento ya que el Área de Bienestar del Cliente demanda una solución combinada e interactiva que permita ser compartida de manera sencilla haciendo uso de las características colaborativas propias de la plataforma Power BI Service, sacándole provecho a las herramientas de Office 365 y a los beneficios de tener licenciamientos PRO corporativos adquiridos a partir de la última compra que formó parte de las iniciativas de la gerencia de TI. <br>
+<br>
+<br>
+
+<b>C.3 Justificación de utilización de la visualización</b><br>
+<br>
+Considero que el gráfico de Columnas Apiladas con Línea de Tendencia es la mejor opción puesto que se requiere representar la tendencia del comportamiento de una variable cuantitativa (monto de pagos recibidos) combinada con la distribución comparativa de los montos de préstamos ejecutados (variable cuantitativa) por tipo de residencia (variable categórica) a través del tiempo, en resúmen, en esta única visualización cubrimos la necesidad completa del área usuaria. <br>
+<br>
+<br>
+
+<b>C.4 Elementos de la Visualización</b><br>
+<br>
+Este gráfico tiene los siguientes elementos: <br>
+<br>
+<b>- Audiencia:</b> Se encuentra representado por los colaboradores pertenecientes al Área de Bienestar del Cliente de la entidad financiera, quienes harán uso de la visualización para tomar decisiones a todo nivel. <br>
+<br>
+<b>- Objetivo:</b> Lo que espera la audiencia antes indicada, es poder tener visibilidad de la tendencia respecto a los montos pagados o recibidos y su relación con los préstamos solicitados por tipo de propiedad del cliente en los últimos años y de esta manera definir comportamientos y sobre ellos tomar decisiones o realizar estudios variados. <br>
+<br>
+Este objetivo puede responder la siguiente pregunta: <br>
+<br>
+<b>- .¿Podemos definir cómo la realidad inmobiliaria de nuestros clientes incide en los préstamos que puedan realizar?:</b> Indudablemente si, a través de la visualización combinada desarrollada deducimos una serie de conclusiones orientadas a la realidad de cada uno de nuestros clientes, en este caso, orientado a su condición de vivienda lo cual puede determinar que tantos préstamos se podrán efectuar por parte de cada sector poblacional. <br>
+<br>
+<b>- Mensaje:</b> Contaremos la historia mediante el gráfico de Columnas Apiladas con Línea de Tendencia con el cual lograremos informar sobre el comportamiento ascedente de los pagos realizados en los últimos 3 años (2019 al 2021). Así mismo, nos cuenta que los clientes con propiedades alquiladas e hipotecadas son los que acumulan la mayor cantidad de préstamos, mientras que los poseedores de viviendas propias representan la menor cantidad, es aquí donde se abre un abanico de posibles causas y estudios que tendrán como principal objetivo el identificar perfiles de clientes y de esta manera poder desarrollar diferentes estrategias de fidelización, facilidades en los pagos y crear productos más personalizados.<br>
+<br>
+<br>
+
+<b><u>D. Cuarto Gráfico</b></u><br>
+  <br>
+ Cómo última actividad antes del fin de año 2021, se llevó a cabo la conferencia iterregional donde se reunieron representantes de cada sede perteneciente a la red nacional de la entidad financiera. Como resultado de este encuentro, se definieron una serie de necesidades relacionadas a data, donde se requería tener visibilidad de los montos de préstamos así como la cantidad de operaciones efectuadas por estado territorial y que sea posible consultarlo en un determinado período de tiempo (año-trimestre-mes), considerando toda la historia posible. Por ello, como Especialista del área de Data y Analytics elaboré un gráfico de Mapa mediante la herramienta Power BI para poder cubrir la necesidad de manera sencilla y entendible, obteniendo la siguiente visualización: <br>
+ <br>
+
+<!-- Este cuarto iframe hace referencia al cuarto gráfico (TOP 20 de Monto y Cantidad de Préstamos por Estado) elaborado en Power BI-->
+
+<center><iframe title="Actividad_General_JoseCasachahua_Mapa" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=905ae176-a965-4bfd-99a5-99d408e4e38f&autoAuth=true&ctid=02674ef9-5c2c-47d0-b2bc-595a784dda00&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLXdlc3QtZXVyb3BlLWItcHJpbWFyeS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe></center>
+
+<br>
+<b>D.1 Interpretación</b><br>
+<br>
+En base a la visualización superior podemos deducir los siguientes puntos:<br>
+<br>
+- Los montos de préstamos con mayor volúmen se encuentran ubicados en el estado de California considerando toda la historia desde el año 2017 al 2021.
+<br>
+<br>
+- Los mayor cantidad de préstamos también se encuentran efectuados en el estado de California considerando toda la historia desde el año 2017 al 2021.
+<br>
+<br>
+- Los montos de préstamos con menor volúmen se encuentran ubicados en el estado de Minessota considerando toda la historia desde el año 2017 al 2021.
+<br>
+<br>
+- Los menor cantidad de préstamos también se encuentran efectuados en el estado de Minessota considerando toda la historia desde el año 2017 al 2021.
+<br>
+<br>
+
+<b>D.2 Justificación de utilización de herramienta</b><br>
+<br>
+Considero que Power BI es una buena opción para este requerimiento ya que los gerentes de sedes demandan una solución dinámica, visual e interactiva que permita ser compartida de manera sencilla haciendo uso de las características colaborativas propias de la plataforma Power BI Service, sacándole provecho a las herramientas de Office 365 y a los beneficios de tener licenciamientos PRO corporativos adquiridos. <br>
+<br>
+<br>
+
+<b>D.3 Justificación de utilización de la visualización</b><br>
+<br>
+Considero que el gráfico de Mapa es la opción idónea puesto que se requiere representar la distribución de una variable cuantitativa (monto de préstamos) y de otra variable continua (cantidad de préstamos) por estado territorial (variable categórica) a través del tiempo, siendo esta única visualización la que cubre por completo con lo solicitado. <br>
+<br>
+<br>
+
+<b>D.4 Elementos de la Visualización</b><br>
+<br>
+Este gráfico tiene los siguientes elementos: <br>
+<br>
+<b>- Audiencia:</b> Se encuentra representado por las Gerencias de las Sedes Regionales de la entidad financiera, quienes harán uso de la visualización para tomar decisiones a todo nivel. <br>
+<br>
+<b>- Objetivo:</b> Lo que espera la audiencia antes indicada, es poder tener visibilidad de la distribución histórica de los montos préstados así como de la cantidad de operaciones realizadas por estado para así poder generar planes que complementarán posibles estudios de mercado y territorio. <br>
+<br>
+Este objetivo puede responder la siguiente pregunta: <br>
+<br>
+<b>- .¿La distribución territorial de los préstamos permitirá ayudar en la identificación de necesidades y a desarrollar productos más a la medida de cara al cliente?:</b> Es afirmativo, a través de la visualización de Mapa desarrollada deducimos la realidad de nuestros clientes enmarcados en un espacio geográfico el cual conversa con otras variables como situación laboral e ingreso mensual, lo cual definirá un punto inicial para establecer que otros requerimientos se necesitarán y así moldear los futuros préstamos con características acordes a las necesidades teniendo productos a medida. <br>
+<br>
+<b>- Mensaje:</b> Contaremos la historia mediante el gráfico de Mapas con el cual lograremos transmitir el crecimiento distribuido de préstamos en determinadas zonas. Así mismo, esta visualización nos cuenta que las zonas donde se concentra la mayor cantidad y monto de préstamos se ubican en zonas costeras y en donde se tiene mayor cantidad de población extranjera, esto también puede significar un factor de suma importancia al momento de perfilar a nuestros clientes ya que en muchos de esos casos, la situación económica y hasta legal puede tener consecuencias en sus decisiones y los llevan a pedir préstamos que al final puede que no puedan pagar, ante ello la entidad financiera debe intervenir mediante estrategias que ayuden y alivien la salida del flujo de caja del usuario final.<br>
+<br>
+<br>
